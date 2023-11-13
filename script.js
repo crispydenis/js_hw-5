@@ -125,21 +125,6 @@ console.log(newarr)
 ********* */
 
 
-function drawPyramid(rows, symbol = '') {
-  for (let i = 1; i <= rows; i++) {
-    let row = '';
-
-    for (let j = 1; j <= i; j++) {
-      row += symbol
-    }
-
-    console.log(row);
-  }
-}
-
-// Пример использования функции
-
-drawPyramid(9, '*');  // Рисует пирамиду с символом '*'
-drawPyramid(9, 'ч');  // Рисует пирамиду с заданным текстом
+// check
 
 
